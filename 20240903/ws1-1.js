@@ -19,5 +19,6 @@ process.stdin.on("data", function(inputFromUser) {
     process.stdout.write("You typed in " + numericInput + ".\n");
     process.stdout.write("My number is " + secretNumber + ".\n");
     process.stdout.write("Sorry, you lost. I won. The game is over.");
+    
     process.exit();
 });
